@@ -42,3 +42,5 @@ def reverse(string)
     return string if string.length < 1
     string[-1] + reverse(string[0...-1])
 end
+
+TEST TEXT FOR COMMITING
